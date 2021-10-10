@@ -1,0 +1,26 @@
+<!--
+ * @Descripttion: your project
+ * @version: 1.0
+ * @Author: henrytam
+ * @Date: 2021-07-17 14:19:15
+ * @LastEditors: henrytam
+ * @LastEditTime: 2021-07-17 16:57:34
+-->
+<p>这是第五个组件</p>
+<p>姓名{{name}}</p>
+<p>年龄{{age}}</p>
+<p>{{1+2}}</p>
+<!-- <p>{{11&&console.log(12)}}</p> -->
+<!-- <p>{{11?name:age}}</p> -->
+<!-- 
+<p>{{new String()}}</p>
+<p>(JSON.stringify())</p>-->
+
+<p [title]="name">hell</p>
+<p title={{name}}>hell</p>
+
+<div>
+  <button (click)="reduce()">-</button>
+  <span>{{age}}</span>
+  <button (click)='add()'>+</button>
+</div>

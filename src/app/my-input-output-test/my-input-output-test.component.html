@@ -1,0 +1,11 @@
+<!--
+ * @Descripttion: your project
+ * @version: 1.0
+ * @Author: henrytam
+ * @Date: 2021-07-20 14:24:22
+ * @LastEditors: henrytam
+ * @LastEditTime: 2021-07-20 15:13:49
+-->
+<p>这是父组件{{num}}</p>
+<!-- 父组件需要在自定义函数中传人$event才能拿到子组件传过来的参数 -->
+<app-my-child [num]='num' [age]='age' (myChangeNum)="myChangeNum($event)"></app-my-child>

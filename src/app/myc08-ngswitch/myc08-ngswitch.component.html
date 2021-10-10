@@ -1,0 +1,16 @@
+<!--
+ * @Descripttion: your project
+ * @version: 1.0
+ * @Author: henrytam
+ * @Date: 2021-07-18 12:07:05
+ * @LastEditors: henrytam
+ * @LastEditTime: 2021-07-18 12:14:41
+-->
+<div [ngSwitch]="grade">
+  <p *ngSwitchCase="'90分'">这是第一名</p>
+  <p *ngSwitchCase="'80分'">这是第二名</p>
+  <p *ngSwitchCase="'70分'">这是第三名</p>
+  <p *ngSwitchCase="'60分'">这是第四名</p>
+  <p *ngSwitchDefault="'50分'">这是第四名</p>
+
+</div>

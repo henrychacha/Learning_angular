@@ -1,0 +1,20 @@
+<!--
+ * @Descripttion: your project
+ * @version: 1.0
+ * @Author: henrytam
+ * @Date: 2021-07-17 20:47:30
+ * @LastEditors: henrytam
+ * @LastEditTime: 2021-07-18 12:05:21
+-->
+
+<div (click)="changeAge()">
+  <div *ngIf="age >= 18; else isForChild"> 这是成年人收看的</div>
+  <p (click)="changeColor()" [ngStyle]="myChangeStyle">hello?出示身份证一下</p>
+  <ng-template #isForChild>
+    <p>
+      这是未成年人收看的
+    </p>
+
+  </ng-template>
+</div>
+<button (mouseover)="changeClass()" [ngClass]='objClass'>点击改变样式</button>

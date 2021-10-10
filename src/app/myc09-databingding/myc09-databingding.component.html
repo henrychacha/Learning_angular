@@ -1,0 +1,20 @@
+<!--
+ * @Descripttion: your project
+ * @version: 1.0
+ * @Author: henrytam
+ * @Date: 2021-07-18 14:01:48
+ * @LastEditors: henrytam
+ * @LastEditTime: 2021-07-20 14:21:21
+-->
+<input [(ngModel)]="uname" placeholder="您是哪位啊？？？">
+<input [ngModel]="uname" (ngModelChange)="changeModel($event)" placeholder="222s您是哪位啊？？？">
+<input [ngModel]="uname" (input)="changeModelByChange($event)" placeholder="3您是哪位啊？？？">
+<input [value]="uname" (change)="changeModelByChange($event)" placeholder="3您是哪位啊？？？">
+<input [value]="uname" (keyup)="changeModelByChange($event)" placeholder="3您是哪位啊？？？">
+<!-- 上面的全都可以实现数据双向绑定 -->
+<p appMydirective="">
+  1234{{uname}} - {{gender | gender : 'zh': 1}}
+</p>
+<div appMydirective="#123">您哪位啊</div>
+<hr>
+<div [appMydirective]="'#080'">ta哪位啊</div>

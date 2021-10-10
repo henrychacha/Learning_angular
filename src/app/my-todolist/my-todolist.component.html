@@ -1,0 +1,19 @@
+<!--
+ * @Descripttion: your project
+ * @version: 1.0
+ * @Author: henrytam
+ * @Date: 2021-07-18 17:03:56
+ * @LastEditors: henrytam
+ * @LastEditTime: 2021-07-18 17:25:22
+-->
+<div>
+  <input [(ngModel)]="additem" placeholder='请输入待办事项' type="text" name="" id="">
+  <button (click)="add()">添加</button>
+  <p *ngIf="todoList.length === 0">无内容</p>
+  <ul>
+    <li *ngFor="let item of todoList;index as i">
+      <span>{{i+1}}-{{item}}</span>
+      <button (click)="remove(i)">删除</button>
+    </li>
+  </ul>
+</div>
