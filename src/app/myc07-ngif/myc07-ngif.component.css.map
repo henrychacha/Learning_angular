@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,IAAI,CAAC;EACD,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,MAAM;EAClB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,cAAc;CAAG;;AAG7B,AAAA,cAAc,CAAC;EACX,SAAS,EAAE,IAAI;EACf,gBAAgB,EAAE,IAAI;EACtB,MAAM,EAAE,eAAe;CAAG;;AAG9B,AAAA,aAAa,CAAC;EACV,gBAAgB,EAAE,IAAI;EACtB,YAAY,EAAE,IAAI;CAAG",
+    "sources": [
+        "myc07-ngif.component.sass"
+    ],
+    "names": [],
+    "file": "myc07-ngif.component.css"
+}

@@ -28,6 +28,8 @@ import { LevelPipePipe } from './level-pipe.pipe';
 import { Myc10ServiceComponent } from './myc10-service/myc10-service.component';
 import { MyInputOutputTestComponent } from './my-input-output-test/my-input-output-test.component';
 import { appMyChildComponent } from './my-input-output-test/my-child.component';
+import { MyLoginComponent } from './my-login/my-login.component';
+import { MyHttpClientProductExampleComponent } from './my-http-client-product-example/my-http-client-product-example.component';
 
 @NgModule({
   declarations: [
@@ -48,6 +50,8 @@ import { appMyChildComponent } from './my-input-output-test/my-child.component';
     Myc10ServiceComponent,
     MyInputOutputTestComponent,
     appMyChildComponent,
+    MyLoginComponent,
+    MyHttpClientProductExampleComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],
   providers: [],

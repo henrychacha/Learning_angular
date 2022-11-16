@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,EAAE,CAAA;EACE,UAAU,EAAE,MAAM;EAClB,KAAK,EAAE,MAAM;CAChB",
+    "sources": [
+        "myc02.component.scss"
+    ],
+    "names": [],
+    "file": "myc02.component.css"
+}

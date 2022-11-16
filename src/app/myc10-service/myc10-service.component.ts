@@ -21,7 +21,7 @@ export class Myc10ServiceComponent {
   httpDeclare: HttpClient;
   constructor(log: logService, http: HttpClient) {
     //声明依赖
-
+    //log 只是一个形参名称
     this.logDeclare = log;
     this.httpDeclare = http;
     console.log(this.httpDeclare);
